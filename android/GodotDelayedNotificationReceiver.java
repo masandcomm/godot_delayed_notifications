@@ -1,4 +1,12 @@
-public class AndroidNotificationReceiver extends BroadcastReceiver {
+package org.godotengine.godot;
+
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+
+public class GodotDelayedNotificationReceiver extends BroadcastReceiver {
 
     public static String NOTIFICATION_ID = "notification_id";
     public static String NOTIFICATION = "notification";
