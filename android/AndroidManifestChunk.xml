@@ -1,1 +1,1 @@
-<receiver android:name="org.godotengine.godot.GodotDelayedNotificationReceiver" android:process=":remote" />
+<receiver android:name="org.godotengine.godot.NotificationBroadcastReceiver" android:process=":remote" />
